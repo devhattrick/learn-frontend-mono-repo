@@ -2,7 +2,10 @@
   "name": "@ats/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve todo-list-app",
+    "db": "json-server --watch db.json"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.2.0",
